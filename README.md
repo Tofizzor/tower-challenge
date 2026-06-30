@@ -4,6 +4,8 @@ A frontend visualization of the classic **Tower of Hanoi** puzzle — the same c
 
 **Repository:** [github.com/Tofizzor/tower-challenge](https://github.com/Tofizzor/tower-challenge)
 
+**Play online:** [tofizzor.github.io/tower-challenge](https://tofizzor.github.io/tower-challenge/)
+
 ## About
 
 The puzzle is based on the real Tower of Hanoi game. Discs of different sizes are stacked on towers (pegs). The goal is to move the entire stack from one tower to another while following the rules below.
@@ -56,6 +58,12 @@ src/
 The game rules live in `src/game` with no UI dependencies, so they are easy to unit test and are reused directly by the auto-solver.
 
 ## Getting started
+
+### Play in the browser
+
+The game is hosted on GitHub Pages. Open [tofizzor.github.io/tower-challenge](https://tofizzor.github.io/tower-challenge/) — no install required.
+
+### Run locally
 
 Requires [Node.js](https://nodejs.org/) 18 or newer.
 
